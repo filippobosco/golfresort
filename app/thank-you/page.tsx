@@ -61,7 +61,7 @@ export default function ThankYouPage() {
             >
               <SparklesIcon className="w-5 h-5" />
               <span className="font-lato font-semibold">
-                We're excited to help you plan your perfect golf experience
+                We&apos;re excited to help you plan your perfect golf experience
               </span>
               <SparklesIcon className="w-5 h-5" />
             </motion.div>
@@ -81,7 +81,7 @@ export default function ThankYouPage() {
                   Quick Response
                 </h3>
                 <p className="font-lato text-sm text-gray-600">
-                  We'll contact you within 24 hours
+                  We&apos;ll contact you within 24 hours
                 </p>
               </motion.div>
 
@@ -154,7 +154,7 @@ export default function ThankYouPage() {
                       Personalized Proposal
                     </h3>
                     <p className="font-lato text-gray-600 text-sm">
-                      We'll send you a tailored package with all the details and pricing
+                      We&apos;ll send you a tailored package with all the details and pricing
                     </p>
                   </div>
                 </div>

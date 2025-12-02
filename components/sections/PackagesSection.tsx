@@ -14,7 +14,7 @@ const packages = [
     tagline: 'The perfect week between golf and dolce vita',
     image: '/images/\'Charme, Relax & Golf\' week golf Rome.jpg',
     features: [
-      '7 nights in classic room in Leon\'s Place boutique Hotel 4* in Rome',
+      '7 nights in classic room in Leon&apos;s Place boutique Hotel 4* in Rome',
       'Full daily buffet breakfast',
       '1 Green fee on Marco Simone Golf & Country Club',
       '1 Green fee on Castelgandolfo Golf Club, the Robert Trend Jones Sr. Golf Course',
@@ -153,7 +153,7 @@ export default function PackagesSection() {
                 {/* Features */}
                 <div className="mb-6">
                   <h4 className="font-lato font-bold text-gray-800 mb-4">
-                    What's included:
+                    What&apos;s included:
                   </h4>
                   <ul className="space-y-3">
                     {pkg.features.map((feature, idx) => (

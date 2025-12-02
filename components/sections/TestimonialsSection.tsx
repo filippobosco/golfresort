@@ -21,7 +21,7 @@ const testimonials = [
   },
   {
     rating: 5,
-    quote: 'Fantastic location, a stone\'s throw from Rome yet immersed in nature. The courses are technically challenging and very well maintained. Top-level hospitality.',
+    quote: 'Fantastic location, a stone&apos;s throw from Rome yet immersed in nature. The courses are technically challenging and very well maintained. Top-level hospitality.',
     author: 'John M.',
     location: 'London',
   },
@@ -124,7 +124,7 @@ export default function TestimonialsSection() {
                 <StarRating rating={testimonials[currentIndex].rating} />
                 
                 <blockquote className="relative">
-                  <span className="absolute -top-2 -left-2 text-6xl text-gold/20 font-serif">"</span>
+                  <span className="absolute -top-2 -left-2 text-6xl text-gold/20 font-serif">&ldquo;</span>
                   <p className="font-lato italic text-gray-700 leading-relaxed relative z-10 mb-4">
                     {testimonials[currentIndex].quote}
                   </p>
@@ -187,7 +187,7 @@ export default function TestimonialsSection() {
               <StarRating rating={testimonial.rating} />
               
               <blockquote className="relative">
-                <span className="absolute -top-2 -left-2 text-6xl text-gold/20 font-serif">"</span>
+                <span className="absolute -top-2 -left-2 text-6xl text-gold/20 font-serif">&ldquo;</span>
                 <p className="font-lato italic text-gray-700 leading-relaxed relative z-10 mb-4">
                   {testimonial.quote}
                 </p>
