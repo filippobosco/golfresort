@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: 'How long are the 2025 prices valid?',
-    answer: 'Package prices are guaranteed for bookings made by December 31, 2025. From January 1, 2026 rates will be updated.',
+    answer: 'Package prices are guaranteed for bookings made by February 28, 2026. From March 1st, 2026 rates will be updated.',
   },
   {
     question: 'Can I bring non-golfer guests?',

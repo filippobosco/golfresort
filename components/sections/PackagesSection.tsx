@@ -8,25 +8,24 @@ import Button from '../ui/Button'
 
 const packages = [
   {
-    badge: 'LOCKED PRICE 2025',
+    badge: 'COMPLETE EXPERIENCE',
     badgeColor: 'bg-primary',
-    title: 'Book Early',
-    tagline: 'Book in advance and save',
-    image: '/images/Book Early.jpg',
+    title: 'Charme, Relax & Golf Week',
+    tagline: 'The perfect week between golf and dolce vita',
+    image: '/images/\'Charme, Relax & Golf\' week golf Rome.jpg',
     features: [
-      '4 nights stay in Sheraton Golf Parco de\' Medici 4*s',
-      'American breakfast',
-      '2 green fees on Parco de\' Medici Golf Club',
-      '1 green fee on Castelgandolfo golf Course',
+      '7 nights in classic room in Leon&apos;s Place boutique Hotel 4* in Rome',
+      'Full daily buffet breakfast',
+      '1 Green fee on Marco Simone Golf & Country Club',
+      '1 Green fee on Castelgandolfo Golf Club, the Robert Trend Jones Sr. Golf Course',
+      '1 Green fee on Acquasanta Golf Club',
       'Advanced starting times at time of the reservation',
-      'Club storage and locker room service',
       'Unlimited use of practice facilities',
-      'Meet & Greet at the Airport & Hotel',
+      'Club storage and locker room service',
       'Full time assistance during your stay',
-      'Rome City tax to pay on site',
     ],
-    idealFor: 'Those who plan ahead and want to secure the best price of the year',
-    price: '€499',
+    idealFor: 'Couples and golfers who want to fully immerse themselves in the golf & relax experience',
+    price: '€990',
     priceNote: '',
   },
   {
@@ -49,24 +48,25 @@ const packages = [
     priceNote: '',
   },
   {
-    badge: 'COMPLETE EXPERIENCE',
+    badge: 'LOCKED PRICE 2025',
     badgeColor: 'bg-primary',
-    title: 'Charme, Relax & Golf Week',
-    tagline: 'The perfect week between golf and dolce vita',
-    image: '/images/\'Charme, Relax & Golf\' week golf Rome.jpg',
+    title: 'Book Early',
+    tagline: 'Book in advance and save',
+    image: '/images/Book Early.jpg',
     features: [
-      '7 nights in classic room in Leon&apos;s Place boutique Hotel 4* in Rome',
-      'Full daily buffet breakfast',
-      '1 Green fee on Marco Simone Golf & Country Club',
-      '1 Green fee on Castelgandolfo Golf Club, the Robert Trend Jones Sr. Golf Course',
-      '1 Green fee on Acquasanta Golf Club',
+      '4 nights stay in Sheraton Golf Parco de\' Medici 4*s',
+      'American breakfast',
+      '2 green fees on Parco de\' Medici Golf Club',
+      '1 green fee on Castelgandolfo golf Course',
       'Advanced starting times at time of the reservation',
-      'Unlimited use of practice facilities',
       'Club storage and locker room service',
+      'Unlimited use of practice facilities',
+      'Meet & Greet at the Airport & Hotel',
       'Full time assistance during your stay',
+      'Rome City tax to pay on site',
     ],
-    idealFor: 'Couples and golfers who want to fully immerse themselves in the golf & relax experience',
-    price: '€990',
+    idealFor: 'Those who plan ahead and want to secure the best price of the year',
+    price: '€499',
     priceNote: '',
   },
 ]
@@ -228,7 +228,7 @@ export default function PackagesSection() {
             </div>
             <div className="flex items-center gap-2">
               <CheckCircleIcon className="w-5 h-5 text-primary" />
-              <span>Guaranteed prices until 12/31/2025</span>
+              <span>Guaranteed prices until 02/28/2025</span>
             </div>
           </div>
         </motion.div>

@@ -26,7 +26,7 @@ export default function UrgencyBanner() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          Guaranteed Prices Only Until December 31, 2025
+          Guaranteed Prices Only Until February 28, 2026
         </motion.h2>
 
         {/* Body Text */}
@@ -41,7 +41,7 @@ export default function UrgencyBanner() {
             Our exclusive packages are available at a fixed and locked price only until the end of 2025.
           </p>
           <p>
-            From January 1st, 2026, rates will be updated.
+            From March 1st, 2026, rates will be updated.
           </p>
           <p className="font-semibold">
             Book now and secure the best value for your golf experience.
