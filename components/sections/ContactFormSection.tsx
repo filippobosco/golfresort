@@ -165,7 +165,7 @@ export default function ContactFormSection() {
           {/* Header */}
           <div className="text-center mb-12">
             <h2 className="font-cinzel text-3xl md:text-4xl lg:text-[38px] text-primary mb-4">
-              Request Information About 2025 Packages
+              Request Information About 2026 Packages
             </h2>
             <p className="font-lato text-lg text-gray-600">
               Fill out the form and we will contact you within 24 hours with all personalized information for you.
@@ -339,7 +339,7 @@ export default function ContactFormSection() {
                   name="preferredDates"
                   value={formData.preferredDates}
                   onChange={handleChange}
-                  placeholder="e.g. May 15-22, 2025"
+                  placeholder="e.g. December 15-22, 2025"
                   className="w-full pl-12 pr-4 py-4 border-2 border-gray-300 rounded-lg font-lato transition-all focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary/10"
                 />
               </div>

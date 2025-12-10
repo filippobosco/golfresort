@@ -38,7 +38,7 @@ export default function UrgencyBanner() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <p>
-            Our exclusive packages are available at a fixed and locked price only until the end of 2025.
+            Our exclusive packages are available at a fixed and locked price only until 28 February 2026.
           </p>
           <p>
             From March 1st, 2026, rates will be updated.

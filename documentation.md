@@ -30,8 +30,8 @@ nel Cuore di Roma
 
 ### **Subheadline**
 ```
-Pacchetti esclusivi 2025: golf di alta classe, relax e ospitalità raffinata.
-Prenota ora e blocca il prezzo garantito fino al 31 dicembre 2025.
+Pacchetti esclusivi 2026: golf di alta classe, relax e ospitalità raffinata.
+Prenota ora e blocca il prezzo garantito fino al 31 dicembre 2026.
 ```
 **Styling:**
 - Font: Lato, 24px desktop / 18px mobile
@@ -56,7 +56,7 @@ Richiedi Informazioni
 ### **Microcopy sotto CTA**
 ```
 ✓ Consulenza personalizzata gratuita
-✓ Prezzi bloccati fino al 31/12/2025
+✓ Prezzi bloccati fino al 28/02/2026
 ```
 **Styling:**
 - Font: Lato, 14px
@@ -179,7 +179,7 @@ Che tu sia un professionista o un appassionato, qui troverai:
 
 ---
 
-## **4. PACCHETTI ESCLUSIVI 2025**
+## **4. PACCHETTI ESCLUSIVI 2026**
 
 ### **Background & Layout**
 - Background: linear-gradient(to bottom, #f5f5f5, #fafafa)
@@ -188,7 +188,7 @@ Che tu sia un professionista o un appassionato, qui troverai:
 
 ### **Headline Sezione**
 ```
-Pacchetti Golf Esclusivi 2025
+Pacchetti Golf Esclusivi 2026
 ```
 **Styling:**
 - Font: Cinzel, 46px desktop / 34px mobile
@@ -381,7 +381,7 @@ A partire da €1.450 per il pacchetto
 
 **Badge:**
 ```
-PREZZO BLOCCATO 2025
+PREZZO BLOCCATO 2026
 ```
 **Badge color:** #b20000
 
@@ -400,7 +400,7 @@ Prenota in anticipo e risparmia
 
 **Cosa Include:**
 ```
-🎯 Prezzo garantito per tutta la stagione 2025
+🎯 Prezzo garantito per tutta la stagione 2026
 ⛳ Flessibilità totale sulle date di gioco
 🏌️ Green fee scontati per prenotazioni anticipate
 📅 Priorità su tee time e servizi
@@ -444,7 +444,7 @@ Richiedi Informazioni sui Pacchetti
 
 **Microcopy sotto button:**
 ```
-Risposta entro 24 ore · Consulenza gratuita · Prezzi garantiti fino al 31/12/2025
+Risposta entro 24 ore · Consulenza gratuita · Prezzi garantiti fino al 28/02/2026
 ```
 **Styling:**
 - Font: Lato, 14px
@@ -472,7 +472,7 @@ Risposta entro 24 ore · Consulenza gratuita · Prezzi garantiti fino al 31/12/2
 
 ### **Headline Urgency**
 ```
-⏰ Attenzione: Prezzi Garantiti Solo Fino al 31 Dicembre 2025
+⏰ Attenzione: Prezzi Garantiti Solo Fino al 28 Febbraio 2026
 ```
 **Styling:**
 - Font: Cinzel, 32px desktop / 24px mobile
@@ -482,7 +482,7 @@ Risposta entro 24 ore · Consulenza gratuita · Prezzi garantiti fino al 31/12/2
 
 ### **Body Text**
 ```
-I nostri pacchetti esclusivi sono disponibili a prezzo fisso e bloccato solo fino alla fine del 2025.
+I nostri pacchetti esclusivi sono disponibili a prezzo fisso e bloccato solo fino al 28 Febbraio 2026.
 
 Dal 1° gennaio 2026, le tariffe verranno aggiornate.
 
@@ -496,7 +496,7 @@ Prenota ora e assicurati il miglior valore per la tua esperienza golf.
 - Margin: 0 auto
 
 **Countdown Timer (opzionale, se implementabile):**
-- Visual countdown fino al 31/12/2025
+- Visual countdown fino al 28/02/2026
 - Color scheme: #be9c4d per i numeri, bianco per le label
 - Animation: flip numbers
 
@@ -813,7 +813,7 @@ Leggi tutte le 200+ recensioni →
 
 ### **Headline Form**
 ```
-Richiedi Informazioni sui Pacchetti 2025
+Richiedi Informazioni sui Pacchetti 2026
 ```
 **Styling:**
 - Font: Cinzel, 38px desktop / 28px mobile
@@ -914,7 +914,7 @@ Dropdown options:
 **FIELD 6: Date Preferite**
 ```
 Label: Date preferite (opzionale)
-Placeholder: Es. 15-22 Maggio 2025
+Placeholder: Es. 15-22 Maggio 2026
 ```
 **Icon:** CalendarIcon (heroicons)
 **Type:** text (o date picker)
@@ -1090,9 +1090,9 @@ A: No, i nostri pacchetti sono aperti a tutti i golfisti. Non è necessaria alcu
 
 **FAQ 4:**
 ```
-Q: Fino a quando sono validi i prezzi 2025?
+Q: Fino a quando sono validi i prezzi 2026?
 
-A: I prezzi dei pacchetti sono garantiti per prenotazioni effettuate entro il 31 dicembre 2025. Dal 1° gennaio 2026 le tariffe verranno aggiornate.
+A: I prezzi dei pacchetti sono garantiti per prenotazioni effettuate entro il 28 Febbraio 2026. Dal 1° Marzo 2026 le tariffe verranno aggiornate.
 ```
 
 ---

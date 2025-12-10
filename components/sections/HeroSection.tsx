@@ -71,8 +71,8 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8, ease: 'easeOut' }}
         >
-          Exclusive 2025 packages: top-class golf, relaxation and refined hospitality.<br />
-          Book now and lock in your guaranteed price until December 31, 2025.
+          Exclusive 2026 packages: top-class golf, relaxation and refined hospitality.<br />
+          Book now and lock in your guaranteed price until February 28, 2026.
         </motion.p>
 
         <motion.div
@@ -102,7 +102,7 @@ export default function HeroSection() {
           </div>
           <div className="flex items-center gap-2">
             <CheckCircleIcon className="w-5 h-5 text-gold" />
-            <span>Prices locked until 12/31/2025</span>
+            <span>Prices locked until 28/02/2026</span>
           </div>
         </motion.div>
       </div>

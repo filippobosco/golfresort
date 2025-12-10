@@ -19,11 +19,11 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: 'Golf Resort Rome - Your Golf & Luxury Retreat in the Heart of Rome',
-  description: 'Exclusive 2025 packages: top-class golf, relaxation and refined hospitality. Book now and lock in your guaranteed price until December 31, 2025.',
+  description: 'Exclusive 2026 packages: top-class golf, relaxation and refined hospitality. Book now and lock in your guaranteed price until February 28, 2026.',
   keywords: 'golf resort rome, golf club rome, golf packages, golf course rome, luxury golf italy',
   openGraph: {
     title: 'Golf Resort Rome - Your Golf & Luxury Retreat',
-    description: 'Exclusive 2025 packages: top-class golf, relaxation and refined hospitality.',
+    description: 'Exclusive 2026 packages: top-class golf, relaxation and refined hospitality.',
     type: 'website',
   },
 }

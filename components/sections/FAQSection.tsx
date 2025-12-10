@@ -21,7 +21,7 @@ const faqs = [
     answer: 'No, our packages are open to all golfers. No affiliation is required to book.',
   },
   {
-    question: 'How long are the 2025 prices valid?',
+    question: 'How long are the 2026 prices valid?',
     answer: 'Package prices are guaranteed for bookings made by February 28, 2026. From March 1st, 2026 rates will be updated.',
   },
   {

@@ -48,7 +48,7 @@ const packages = [
     priceNote: '',
   },
   {
-    badge: 'LOCKED PRICE 2025',
+    badge: 'LOCKED PRICE 2026',
     badgeColor: 'bg-primary',
     title: 'Book Early',
     tagline: 'Book in advance and save',
@@ -99,7 +99,7 @@ export default function PackagesSection() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="font-cinzel text-3xl md:text-4xl lg:text-[46px] text-primary mb-4">
-            Exclusive Golf Packages 2025
+            Exclusive Golf Packages 2026
           </h2>
           <p className="font-lato font-bold text-xl text-gold mb-6">
             Lock In Your Guaranteed Price Now
@@ -228,7 +228,7 @@ export default function PackagesSection() {
             </div>
             <div className="flex items-center gap-2">
               <CheckCircleIcon className="w-5 h-5 text-primary" />
-              <span>Guaranteed prices until 02/28/2025</span>
+              <span>Guaranteed prices until 02/28/2026</span>
             </div>
           </div>
         </motion.div>
