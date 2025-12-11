@@ -1,6 +1,5 @@
 'use client'
 
-import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { 
   CheckCircleIcon, 
@@ -14,25 +13,7 @@ import Link from 'next/link'
 import Container from '@/components/ui/Container'
 import Footer from '@/components/sections/Footer'
 
-// Declare gtag for TypeScript
-declare global {
-  interface Window {
-    gtag: (...args: unknown[]) => void
-  }
-}
-
 export default function ThankYouPage() {
-  // Google Ads Conversion Tracking
-  useEffect(() => {
-    if (typeof window !== 'undefined' && window.gtag) {
-      // Track conversion event
-      window.gtag('event', 'conversion', {
-        'send_to': 'AW-949798166/INSERISCI_CONVERSION_LABEL_QUI'
-        // Sostituisci INSERISCI_CONVERSION_LABEL_QUI con il tuo Conversion Label
-        // Es: 'AW-949798166/AbCdEfGhIjKlMnOp'
-      })
-    }
-  }, [])
   return (
     <main className="min-h-screen bg-gradient-to-br from-primary/5 via-white to-gold/5">
       <Container>
