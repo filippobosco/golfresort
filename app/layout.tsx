@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Cinzel, Lato } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 
 const cinzel = Cinzel({
@@ -35,6 +36,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it" className={`${cinzel.variable} ${lato.variable}`}>
+      <head>
+        {/* Google tag (gtag.js) - Google Ads */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-949798166"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-949798166');
+          `}
+        </Script>
+      </head>
       <body>{children}</body>
     </html>
   )
