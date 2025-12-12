@@ -40,7 +40,6 @@ const initialFormData: FormData = {
 export default function ContactFormSection() {
   const [formData, setFormData] = useState<FormData>(initialFormData)
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSuccess, setIsSuccess] = useState(false)
   const [errors, setErrors] = useState<Partial<FormData>>({})
 
   const handleChange = (
@@ -123,56 +122,14 @@ export default function ContactFormSection() {
         throw new Error('Failed to submit form')
       }
 
-      setIsSuccess(true)
-      setFormData(initialFormData)
-      
-      // Redirect to thank you page after a brief delay
-      setTimeout(() => {
-        window.location.href = '/thank-you'
-      }, 1500)
+      // Redirect immediately to thank you page
+      window.location.href = '/thank-you'
     } catch (error) {
       console.error('Form submission error:', error)
       alert('Si è verificato un errore. Riprova più tardi.')
     } finally {
       setIsSubmitting(false)
     }
-  }
-
-  if (isSuccess) {
-    return (
-      <Section background="gradient" className="py-20 lg:py-28" id="contact-form">
-        <Container size="narrow">
-          <motion.div
-            className="bg-white/95 rounded-2xl p-12 shadow-2xl text-center"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.2, type: 'spring', stiffness: 200 }}
-            >
-              <CheckCircleIcon className="w-20 h-20 text-primary mx-auto mb-6" />
-            </motion.div>
-            
-            <h3 className="font-cinzel text-3xl text-primary mb-4">
-              Thank you! Your request has been sent successfully.
-            </h3>
-            <p className="font-lato text-lg text-gray-700 mb-8">
-              We will contact you within 24 hours.
-            </p>
-            
-            <button
-              onClick={() => setIsSuccess(false)}
-              className="font-lato font-bold text-primary hover:text-gold transition-colors"
-            >
-              Send another request
-            </button>
-          </motion.div>
-        </Container>
-      </Section>
-    )
   }
 
   return (
