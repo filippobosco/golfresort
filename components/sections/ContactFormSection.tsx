@@ -102,9 +102,27 @@ export default function ContactFormSection() {
 
     setIsSubmitting(true)
 
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          fullName: formData.fullName,
+          email: formData.email,
+          phone: formData.phone,
+          customerType: formData.customerType,
+          packageInterest: formData.packageInterest,
+          preferredDates: formData.preferredDates,
+          message: formData.message,
+        }),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to submit form')
+      }
+
       setIsSuccess(true)
       setFormData(initialFormData)
       
@@ -112,7 +130,12 @@ export default function ContactFormSection() {
       setTimeout(() => {
         window.location.href = '/thank-you'
       }, 1500)
-    }, 2000)
+    } catch (error) {
+      console.error('Form submission error:', error)
+      alert('Si è verificato un errore. Riprova più tardi.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   if (isSuccess) {
