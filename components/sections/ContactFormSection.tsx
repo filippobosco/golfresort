@@ -101,35 +101,33 @@ export default function ContactFormSection() {
 
     setIsSubmitting(true)
 
-    try {
-      const response = await fetch('/api/contact', {
+    // Send data in background using sendBeacon (doesn't block redirect)
+    const data = JSON.stringify({
+      fullName: formData.fullName,
+      email: formData.email,
+      phone: formData.phone,
+      customerType: formData.customerType,
+      packageInterest: formData.packageInterest,
+      preferredDates: formData.preferredDates,
+      message: formData.message,
+    })
+
+    // Use sendBeacon for fire-and-forget, fallback to fetch
+    const blob = new Blob([data], { type: 'application/json' })
+    const sent = navigator.sendBeacon('/api/contact', blob)
+    
+    if (!sent) {
+      // Fallback: send with fetch but don't wait
+      fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          fullName: formData.fullName,
-          email: formData.email,
-          phone: formData.phone,
-          customerType: formData.customerType,
-          packageInterest: formData.packageInterest,
-          preferredDates: formData.preferredDates,
-          message: formData.message,
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: data,
+        keepalive: true,
       })
-
-      if (!response.ok) {
-        throw new Error('Failed to submit form')
-      }
-
-      // Redirect immediately to thank you page
-      window.location.href = '/thank-you'
-    } catch (error) {
-      console.error('Form submission error:', error)
-      alert('Si è verificato un errore. Riprova più tardi.')
-    } finally {
-      setIsSubmitting(false)
     }
+
+    // Redirect immediately without waiting for response
+    window.location.href = '/thank-you'
   }
 
   return (
